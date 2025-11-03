@@ -112,7 +112,7 @@ ol {
     background: rgba(112, 157, 215, 0.25);
     border-radius: 5px;
     padding: 5px;
-    transition: all linear .15s;
+    transition: all linear .5s;
 }
 
 /* Header part two css end */
