@@ -103,14 +103,16 @@ ol {
     background: #5E3BEE;
     transition: all linear .5s;
 }
+
 .buttonTwo a i {
     margin-left: 10px;
 }
 
-.logoTwo:hover{
+.logoTwo:hover {
     background: rgba(112, 157, 215, 0.25);
     border-radius: 5px;
     padding: 5px;
     transition: all linear .15s;
 }
+
 /* Header part two css end */
