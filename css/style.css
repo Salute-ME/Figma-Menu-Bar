@@ -59,3 +59,40 @@ ol {
 }
 
 /* Header part css end */
+
+/* Header part two css Start */
+#headerPartTwo {
+    background: #ebebff;
+}
+
+.headerTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuTwo ul {
+    display: flex;
+}
+
+.menuTwo ul li a {
+    padding: 0 50px;
+    line-height: 70px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    font-family: "Libertinus Serif Display", system-ui;
+}
+
+.buttonTwo a {
+    padding: 10px 20px;
+    background: #5E3BEE;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.buttonTwo a i {
+    margin-left: 10px;
+}
+
+/* Header part two css end */
