@@ -66,6 +66,7 @@ ol {
 }
 
 .headerTwo {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,15 +85,32 @@ ol {
     font-family: "Libertinus Serif Display", system-ui;
 }
 
+.menuTwo ul li a:hover {
+    background: rgba(112, 157, 215, 0.5);
+    transition: all linear .5s;
+    padding: 10px;
+    border-radius: 50px;
+}
+
 .buttonTwo a {
     padding: 10px 20px;
-    background: #3b65ee;
+    background: #4772ff;
     border-radius: 50px;
     color: #fff;
 }
 
+.buttonTwo a:hover {
+    background: #5E3BEE;
+    transition: all linear .5s;
+}
 .buttonTwo a i {
     margin-left: 10px;
 }
 
+.logoTwo:hover{
+    background: rgba(112, 157, 215, 0.25);
+    border-radius: 5px;
+    padding: 5px;
+    transition: all linear .15s;
+}
 /* Header part two css end */
